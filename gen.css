@@ -1,0 +1,84 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+header{
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.logo h1{
+    font-size: 25px;
+    font-weight: bold; 
+    color: white;
+}
+.contact-info{
+    color: #f4f4f4;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 14px;
+}
+.contact-info p{
+    margin: 0;
+}
+.contact-info a{
+    color: white;
+    text-decoration: none;
+}
+.contact-info a:hover{
+    color: antiquewhite;
+}
+.container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+.quote{
+    color: #555;
+}
+button{
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2980b9;
+}
+footer{
+    background-color: beige;
+    color: black;
+    padding: 20px 0;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer-container{
+    max-width: 1000px; 
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 595px;
+    flex-wrap: wrap;
+}
+.footer-container p{
+    margin: 10px 0;
+}
